@@ -9,8 +9,30 @@ pip install geopandas
 pip install contextily
 ```
 # How to use
-create.....
+Add connection to your database server
 ```
+host = localhost
+dbname = xxx
+user = xxx
+password = xxx
+port = 5432
+```
+Create a connection to the database
+```
+conn = psycopg2.connect(host=host, dbname=dbname, user=user, password=password, port=port)
+```
+Use SQL query layers in the database
+For example:
+```
+sql_fire = "SELECT * FROM district WHERE name = 'PhayaThai';"
+```
+(Optional) Print all rows of a query results and returns a list of tuples. 
+```
+print(cursor.fetchall())
+```
+Close the connection when the work is done.
+```
+conn.close()
 ```
 # Requirements
 ```
