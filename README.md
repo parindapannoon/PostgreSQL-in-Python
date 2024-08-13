@@ -48,4 +48,5 @@ psycopg2==2.9.9
 
 [Esri: Sentinel-2 Land Cover Explorer](https://livingatlas.arcgis.com/landcoverexplorer/#mapCenter=122.35363%2C63.85442%2C11&mode=step&timeExtent=2017%2C2023&year=2023)
 
-![Rimberio Podcast](https://github.com/user-attachments/assets/4022e5bc-d3af-42a9-aac4-f08518f726da)
+
+![Rimberio Podcast (2)](https://github.com/user-attachments/assets/649a8cc5-4150-454c-977c-a2a2f5ab4375)
